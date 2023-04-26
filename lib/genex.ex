@@ -134,7 +134,7 @@ defmodule Genex do
 
       defp valid_opts?(opts \\ []), do: :ok
 
-      defoverridable profile: 1, weights: 0, collection: 0
+      defoverridable profile: 1, weights: 0, collection: 0, seed: 1
     end
   end
 end
